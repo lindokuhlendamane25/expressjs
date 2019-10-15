@@ -46,8 +46,6 @@ const artist = [
   }
 ];
 
-
-
 router.get("/", function(req, res){
   
   return res.sendFile('../routes/public/index.html', {root: __dirname})});
